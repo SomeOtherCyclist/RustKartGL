@@ -1,0 +1,16 @@
+[package]
+name = "rustkart_gl"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gilrs = "0.10.4"
+glium = "0.34.0"
+image = "0.24.8"
+winit = "0.29.10"
+
+[package.metadata.scripts]
+run = "cargo run"
+clippy = "cargo clippy"
